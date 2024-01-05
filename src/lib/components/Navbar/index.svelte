@@ -141,6 +141,7 @@
     .nav-container {
       padding-block: 2rem;
       background-color: transparent;
+      transition: background-color 250ms ease-out;
     }
 
     .nav-container-sticky {
@@ -158,6 +159,7 @@
       display: flex;
       gap: 2rem;
       z-index: 98;
+      background-color: transparent;
     }
     .nav__links > li a {
       padding: 0;
