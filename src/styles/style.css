@@ -13,6 +13,7 @@
   --clr-bg-secondary: #1e1e1e;
   --clr-primary: #bde045;
   --clr-text: #fff;
+  --clr-paragraph: #ccc;
   --clr-nav-links: hsla(0, 0%, 7%, 0.9);
 }
 
@@ -20,6 +21,14 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--clr-bg);
   color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  color: var(--clr-paragraph);
 }
 
 .container {
