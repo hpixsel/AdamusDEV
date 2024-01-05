@@ -29,6 +29,7 @@ img {
 
 p {
   color: var(--clr-paragraph);
+  line-height: 1.7;
 }
 
 .container {

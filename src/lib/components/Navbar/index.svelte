@@ -157,10 +157,11 @@
       opacity: 1;
       transform: translateX(0%);
       display: flex;
-      gap: 2rem;
+      gap: 3rem;
       z-index: 98;
       background-color: transparent;
     }
+
     .nav__links > li a {
       padding: 0;
       font-size: 1rem;
