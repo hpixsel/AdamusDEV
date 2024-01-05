@@ -1,5 +1,5 @@
 <script>
-  import bgImg from "$lib/assets/hero/bg.jpeg"
+  import bgImg from "$lib/assets/main/bg.jpeg"
 </script>
 
 <section class="hero wrapper">
@@ -179,6 +179,7 @@
     gap: 3rem;
 
     text-align: center;
+    margin-top: 3rem;
   }
 
   .hero__text {
@@ -198,11 +199,18 @@
 
   .hero__bg {
     position: absolute;
+    overflow-x: clip;
     inset: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: -1;
+    left: -1rem;
+    right: -1rem;
+  }
+
+  .hero__bg img {
+    max-width: 400%;
   }
 
   @media (min-width: 60rem) {
@@ -221,6 +229,10 @@
 
     .hero__svg {
       width: 60rem;
+    }
+
+    .hero__bg img {
+      max-width: 110%;
     }
   }
 </style>

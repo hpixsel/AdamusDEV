@@ -137,10 +137,16 @@
     text-align: center;
   }
 
+  .nav__links > li a.link-active {
+    color: var(--clr-primary);
+    font-weight: bold;
+  }
+
   @media (min-width: 60rem) {
     .nav-container {
       padding-block: 2rem;
       background-color: transparent;
+      transition: background-color 250ms ease-out;
     }
 
     .nav-container-sticky {
@@ -156,18 +162,15 @@
       opacity: 1;
       transform: translateX(0%);
       display: flex;
-      gap: 2rem;
+      gap: 3rem;
       z-index: 98;
+      background-color: transparent;
     }
+
     .nav__links > li a {
       padding: 0;
       font-size: 1rem;
       font-weight: normal;
-    }
-
-    .nav__links > li a.link-active {
-      color: var(--clr-primary);
-      font-weight: bold;
     }
   }
 </style>
