@@ -137,6 +137,11 @@
     text-align: center;
   }
 
+  .nav__links > li a.link-active {
+    color: var(--clr-primary);
+    font-weight: bold;
+  }
+
   @media (min-width: 60rem) {
     .nav-container {
       padding-block: 2rem;
@@ -166,11 +171,6 @@
       padding: 0;
       font-size: 1rem;
       font-weight: normal;
-    }
-
-    .nav__links > li a.link-active {
-      color: var(--clr-primary);
-      font-weight: bold;
     }
   }
 </style>

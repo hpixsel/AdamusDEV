@@ -1,5 +1,5 @@
 <script>
-  import bgImg from "$lib/assets/hero/bg.jpeg"
+  import bgImg from "$lib/assets/main/bg.jpeg"
 </script>
 
 <section class="hero wrapper">
