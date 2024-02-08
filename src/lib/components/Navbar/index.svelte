@@ -144,7 +144,8 @@
 
   @media (min-width: 60rem) {
     .nav-container {
-      padding-block: 2rem;
+      margin-block: 1.5rem;
+      padding-block: 0.5rem;
       background-color: transparent;
       transition: background-color 250ms ease-out;
     }

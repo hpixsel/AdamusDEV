@@ -1,0 +1,87 @@
+{
+  "better": [
+    {
+      "icon": "html",
+      "name": "HTML",
+      "href": "https://astro.build/"
+    },
+    {
+      "icon": "css",
+      "name": "CSS",
+      "href": "https://svelte.dev/"
+    },
+    {
+      "icon": "js",
+      "name": "JavaScript",
+      "href": "https://svelte.dev/"
+    },
+    {
+      "icon": "react",
+      "name": "ReactJS",
+      "href": "https://svelte.dev/"
+    },
+    {
+      "icon": "nextjs",
+      "name": "NextJS",
+      "href": "https://svelte.dev/"
+    },
+    {
+      "icon": "gatsby",
+      "name": "Gatsby",
+      "href": "https://svelte.dev/"
+    },
+    {
+      "icon": "git",
+      "name": "Git",
+      "href": "https://svelte.dev/"
+    },
+    {
+      "icon": "figma",
+      "name": "Figma",
+      "href": "https://svelte.dev/"
+    },
+    {
+      "icon": "netlify",
+      "name": "Netlify",
+      "href": "https://svelte.dev/"
+    }
+  ],
+
+  "less": [
+    {
+      "icon": "astro",
+      "name": "Astro",
+      "href": "https://astro.build/"
+    },
+    {
+      "icon": "svelte",
+      "name": "Svelte",
+      "href": "https://svelte.dev/"
+    },
+    {
+      "icon": "strapi",
+      "name": "Strapi",
+      "href": "https://svelte.dev/"
+    },
+    {
+      "icon": "phpmyadmin",
+      "name": "phpMyAdmin",
+      "href": "https://svelte.dev/"
+    },
+    {
+      "icon": "mysql",
+      "name": "MySQL",
+      "href": "https://svelte.dev/"
+    },
+    {
+      "icon": "php",
+      "name": "PHP",
+      "href": "https://svelte.dev/"
+    },
+    {
+      "icon": "python",
+      "name": "Python",
+      "href": "https://svelte.dev/"
+    }
+  ]
+}
