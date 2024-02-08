@@ -1,0 +1,178 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "_bielsania-copy.js": {
+    "file": "chunks/bielsania-copy.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isDynamicEntry": true
+  },
+  "_bielsania.js": {
+    "file": "chunks/bielsania.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isDynamicEntry": true
+  },
+  "_dynamic-import-helper.js": {
+    "file": "chunks/dynamic-import-helper.js"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "imports": [
+      "_ssr.js",
+      "_exports.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/lib/assets/main/bg.jpeg": {
+    "file": "_app/immutable/assets/bg.YkTPkc3x.jpeg",
+    "src": "src/lib/assets/main/bg.jpeg"
+  },
+  "src/lib/assets/main/contact.svg": {
+    "file": "_app/immutable/assets/contact.YKYr98X2.svg",
+    "src": "src/lib/assets/main/contact.svg"
+  },
+  "src/lib/assets/photo.jpeg": {
+    "file": "_app/immutable/assets/photo.dqivr1Yy.jpeg",
+    "src": "src/lib/assets/photo.jpeg"
+  },
+  "src/routes/+layout.svelte": {
+    "css": [
+      "_app/immutable/assets/_layout.w5_f2lAl.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.js": {
+    "dynamicImports": [
+      "_bielsania-copy.js",
+      "_bielsania.js"
+    ],
+    "file": "entries/pages/_page.js",
+    "imports": [
+      "_bielsania-copy.js",
+      "_bielsania.js",
+      "_dynamic-import-helper.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.js"
+  },
+  "src/routes/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/bg.YkTPkc3x.jpeg",
+      "_app/immutable/assets/photo.dqivr1Yy.jpeg",
+      "_app/immutable/assets/contact.YKYr98X2.svg"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.FSfH7WHa.css"
+    ],
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/o-mnie/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page._mqF0RyB.css"
+    ],
+    "file": "entries/pages/o-mnie/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/o-mnie/+page.svelte"
+  },
+  "src/routes/portfolio/+page.js": {
+    "dynamicImports": [
+      "_bielsania-copy.js",
+      "_bielsania.js"
+    ],
+    "file": "entries/pages/portfolio/_page.js",
+    "imports": [
+      "_bielsania-copy.js",
+      "_bielsania.js",
+      "_dynamic-import-helper.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/portfolio/+page.js"
+  },
+  "src/routes/portfolio/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.3HfYZQoX.css"
+    ],
+    "file": "entries/pages/portfolio/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/portfolio/+page.svelte"
+  },
+  "src/routes/portfolio/[slug]/+page.js": {
+    "dynamicImports": [
+      "_bielsania-copy.js",
+      "_bielsania.js"
+    ],
+    "file": "entries/pages/portfolio/_slug_/_page.js",
+    "imports": [
+      "_dynamic-import-helper.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/portfolio/[slug]/+page.js"
+  },
+  "src/routes/portfolio/[slug]/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.LYbM9GYT.css"
+    ],
+    "file": "entries/pages/portfolio/_slug_/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/portfolio/[slug]/+page.svelte"
+  }
+}

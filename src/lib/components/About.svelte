@@ -1,6 +1,6 @@
 <div class="about wrapper">
   <div class="about__photo">
-    <img src="/src/lib/assets/photo.jpeg" alt="Kacper Adamus" />
+    <img src="$lib/assets/photo.jpeg" alt="Kacper Adamus" />
   </div>
   <div class="about__text">
     <div class="about__text__heading">
@@ -29,7 +29,7 @@
     </p>
   </div>
   <div class="about__bg">
-    <img src="/src/lib/assets/main/bg.jpeg" alt="Background" />
+    <img src="$lib/assets/main/bg.jpeg" alt="Background" />
   </div>
 </div>
 

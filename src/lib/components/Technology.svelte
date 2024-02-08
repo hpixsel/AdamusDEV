@@ -3,7 +3,7 @@
 </script>
 
 <a {href} class="technology" target="_blank">
-  <img src={"/src/lib/assets/svg/" + icon + ".svg"} alt={name} />
+  <img src={"/svg/" + icon + ".svg"} alt={name} />
   <h3>{name}</h3>
 </a>
 

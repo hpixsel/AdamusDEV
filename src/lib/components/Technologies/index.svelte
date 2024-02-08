@@ -1,7 +1,6 @@
 <script>
   import Technology from "../Technology.svelte"
   import technologies from "./technologies.json"
-  console.log(technologies)
 </script>
 
 <div class="technologies--container">
@@ -27,7 +26,7 @@
     </div>
   </div>
   <div class="technologies__bg">
-    <img src="/src/lib/assets/technology-bg.png" alt="Technologies" />
+    <img src="$lib/assets/technology-bg.png" alt="Technologies" />
   </div>
 </div>
 

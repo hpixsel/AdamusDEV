@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-netlify';
 import {mdsvex} from 'mdsvex'
+import { importAssets } from 'svelte-preprocess-import-assets'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -15,7 +16,8 @@ const config = {
 	preprocess: [
 		mdsvex({
 			extensions: ['.md']
-		})
+		}),
+		importAssets()
 	]
 };
 

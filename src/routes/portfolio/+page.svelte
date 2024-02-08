@@ -7,7 +7,7 @@
     <div class="projects__item">
       <div class="wrapper">
         <div class="projects__item__img">
-          <img src={"/src/lib/assets/" + project.imgs[0]} alt={project.title} />
+          <img src={"/content/" + project.imgs[0]} alt={project.title} />
         </div>
         <div class="projects__item__text">
           <h1>{project.title}</h1>
