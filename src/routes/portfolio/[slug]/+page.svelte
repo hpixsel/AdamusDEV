@@ -29,13 +29,13 @@
   <div class="project__imgs">
     <div class="project__imgs__slides">
       {#each data.imgs as img, id}
-        <img id={"slide-" + id} src={"/src/lib/assets/" + img} alt={img} />
+        <img id={"slide-" + id} src={"/content/" + img} alt={img} />
       {/each}
     </div>
     <div class="project__imgs__nav">
       {#each data.imgs as img, id}
         <a href={"#slide-" + id}>
-          <img src={"/src/lib/assets/" + img} alt={"slide" + id} />
+          <img src={"/content/" + img} alt={"slide" + id} />
         </a>
       {/each}
     </div>
@@ -45,7 +45,7 @@
     <div class="project__tools__grid">
       {#each data.tools as tool}
         <a href={tool.href} class="project__tools__grid__item" target="_blank">
-          <img src={"/src/lib/assets/svg/" + tool.icon + ".svg"} alt="" />
+          <img src={"/svg/" + tool.icon + ".svg"} alt="" />
           <h3>{tool.name}</h3>
         </a>
       {/each}
@@ -57,7 +57,7 @@
       {#each data.team as person}
         <li>
           <p>{person.name}</p>
-          <img src={"/src/lib/assets/team/" + person.icon} alt={person.name} />
+          <img src={"/team/" + person.icon} alt={person.name} />
           <a href={data.link} target="_blank" class="project__team__list__link">
             <svg
               viewBox="0 0 24 24"
