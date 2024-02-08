@@ -15,17 +15,32 @@
   --clr-text: #fff;
   --clr-paragraph: #ccc;
   --clr-nav-links: hsla(0, 0%, 7%, 0.9);
+  --clr-input: hsla(0, 0%, 100%, 0.16);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--clr-bg);
-  color: #fff;
+  color: var(--clr-text);
 }
 
-img {
+img,
+svg {
   max-width: 100%;
   display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
 }
 
 p {
@@ -36,7 +51,7 @@ p {
 .container {
   display: flex;
   flex-direction: column;
-  min-height: 200dvh;
+  min-height: 100dvh;
 }
 
 .main {

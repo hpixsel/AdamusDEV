@@ -1,10 +1,16 @@
 <script>
-  import Divider from "$lib/assets/main/divider.svg"
   import Photo from "$lib/assets/photo.jpeg"
 </script>
 
 <div class="intro-container">
-  <img src={Divider} style="rotate: 180deg" alt="section-divider" />
+  <svg
+    viewBox="0 0 1920 40"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    style="rotate: 180deg"
+  >
+    <path d="M0 0H1920V11L0 39V0Z" fill="#1e1e1e" fill-opacity="1" />
+  </svg>
   <div class="intro">
     <div class="wrapper">
       <div class="intro__text">
@@ -26,7 +32,9 @@
       <a href="/o-mnie" class="btn" data-btn-fit>Dowiedz Się Więcej</a>
     </div>
   </div>
-  <img src={Divider} alt="section-divider" />
+  <svg viewBox="0 0 1920 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0H1920V11L0 39V0Z" fill="#1e1e1e" fill-opacity="1" />
+  </svg>
 </div>
 
 <style>
@@ -47,5 +55,35 @@
     border-radius: 4px;
     border: 2px solid var(--clr-primary);
     margin-block: 2rem;
+  }
+
+  @media (min-width: 60rem) {
+    .intro > div {
+      display: grid;
+      grid-template-areas:
+        "text img"
+        "btn  img";
+      align-items: flex-start;
+      gap: 3rem;
+    }
+
+    .intro__text {
+      grid-area: text;
+    }
+
+    .intro__text p {
+      margin-top: 1em;
+    }
+
+    .intro__img {
+      grid-area: img;
+      width: 20rem;
+      margin: 0;
+    }
+
+    .intro a {
+      grid-area: btn;
+      margin-top: auto;
+    }
   }
 </style>
