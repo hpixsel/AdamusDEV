@@ -11,6 +11,7 @@
   }
 
   let navToggle = false
+  $: $page.url && (navToggle = false)
 
   const toggleNav = () => {
     navToggle = !navToggle
