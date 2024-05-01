@@ -29,13 +29,13 @@
   <div class="project__imgs">
     <div class="project__imgs__slides">
       {#each data.imgs as img, id}
-        <img id={"slide-" + id} src={"/content/" + img} alt={img} />
+        <img id={"slide-" + id} src={img} alt={img} />
       {/each}
     </div>
     <div class="project__imgs__nav">
       {#each data.imgs as img, id}
         <a href={"#slide-" + id}>
-          <img src={"/content/" + img} alt={"slide" + id} />
+          <img src={img} alt={"slide" + id} />
         </a>
       {/each}
     </div>
