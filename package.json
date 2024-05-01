@@ -1,6 +1,6 @@
 {
 	"name": "adamusdev",
-	"version": "2.1.0",
+	"version": "2.2.0",
 	"private": true,
 	"scripts": {
 		"dev": "tinacms dev -c \"vite dev\"",
@@ -22,6 +22,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@babel/plugin-transform-class-properties": "^7.24.1",
+		"@babel/plugin-transform-object-rest-spread": "^7.24.5",
 		"tinacms": "^1.6.2"
 	}
 }

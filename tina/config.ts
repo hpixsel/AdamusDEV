@@ -73,6 +73,68 @@ export default defineConfig({
             list: true,
           },
           {
+            type: "object",
+            name: "tools",
+            label: "Narzędzia",
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.name}`}
+              },
+            },
+            fields: [
+              {
+                type: "string",
+                name: "icon",
+                label: "Ikona",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "name",
+                label: "Nazwa",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "href",
+                label: "Link",
+                required: true,
+              },
+            ]
+          },
+          {
+            type: "object",
+            name: "team",
+            label: "Zespół",
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.name}`}
+              },
+            },
+            fields: [
+              {
+                type: "string",
+                name: "name",
+                label: "Nazwa",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "icon",
+                label: "Ikona",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "link",
+                label: "Link",
+                required: true,
+              },
+            ]
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",

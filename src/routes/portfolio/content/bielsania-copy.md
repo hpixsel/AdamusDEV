@@ -1,8 +1,4 @@
 ---
-tools:
-  - icon: astro
-    name: Astro
-    href: 'https://astro.build/'
 team:
   - name: Adamus Kacper
     icon: adamus.jpg
@@ -16,6 +12,13 @@ imgs:
   - /content/projects.png
   - /content/team.png
   - /content/contact.png
+tools:
+  - icon: axios
+    name: Axios
+    href: g
+  - icon: astro
+    name: Astro
+    href: 'https://astro.build/'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. At viverra et hac lacus. Vitae consectetur imperdiet ipsum ac. A tortor purus nunc sit duis eu adipiscing aliquam. Massa sit pellentesque feugiat lectus morbi a purus. A tortor purus nunc sit duis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. At viverra et hac lacus. Vitae consectetur imperdiet ipsum ac. A tortor purus nunc sit duis eu adipiscing aliquam. Massa sit pellentesque feugiat lectus morbi a purus. A tortor purus nunc sit duis.

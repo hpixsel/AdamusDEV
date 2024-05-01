@@ -4,7 +4,7 @@
 
 <a href={"/portfolio/" + slug} class="featured">
   <div class="featured__img">
-    <img src={"/content/" + img} alt={title} />
+    <img src={img} alt={title} />
   </div>
   <div class="featured__text">
     <h2>{title}</h2>
