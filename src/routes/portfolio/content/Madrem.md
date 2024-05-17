@@ -2,7 +2,7 @@
 isFeatured: true
 title: Madrem
 github: 'https://github.com/hpixsel/Madrem'
-link: 'https://madrem.netlify.app/'
+link: 'https://madrem.netlify.app'
 imgs:
   - /content/Madrem/main.png
   - /content/Madrem/about.png
@@ -15,7 +15,7 @@ tools:
 team:
   - name: Adamus Kacper
     icon: adamus.jpg
-    link: 'https://adamusdev.netlify.app/'
+    link: 'https://adamusdev.netlify.app'
 ---
 
 Strona dla firmy Madrem, przedstawiająca firmę oraz ofertę jaką posiadają dla swoich klientów.

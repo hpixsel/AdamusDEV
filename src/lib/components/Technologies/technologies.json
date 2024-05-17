@@ -59,9 +59,19 @@
       "href": "https://svelte.dev/"
     },
     {
+      "icon": "tinacms",
+      "name": "Tina CMS",
+      "href": "https://tina.io/"
+    },
+    {
       "icon": "strapi",
       "name": "Strapi",
       "href": "https://svelte.dev/"
+    },
+    {
+      "icon": "tailwind",
+      "name": "Tailwind CSS",
+      "href": "https://tailwindcss.com/"
     },
     {
       "icon": "phpmyadmin",

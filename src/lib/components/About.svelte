@@ -1,6 +1,6 @@
 <div class="about wrapper">
   <div class="about__photo">
-    <img src="$lib/assets/photo.jpeg" alt="Kacper Adamus" />
+    <img src="$lib/assets/photo.jpg" alt="Kacper Adamus" />
   </div>
   <div class="about__text">
     <div class="about__text__heading">
@@ -77,6 +77,7 @@
     .about {
       display: flex;
       flex-direction: row-reverse;
+      align-items: flex-start;
       gap: 8rem;
       padding-block: 6rem;
       margin-block: 0;
@@ -84,6 +85,10 @@
 
     .about__text p {
       text-align: left;
+    }
+
+    .about__photo {
+      width: 150%;
     }
 
     .about__bg {

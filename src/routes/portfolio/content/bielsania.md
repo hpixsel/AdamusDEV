@@ -15,7 +15,7 @@ tools:
 team:
   - name: Adamus Kacper
     icon: adamus.jpg
-    link: 'https://github.com/hpixsel'
+    link: 'https://adamusdev.netlify.app'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. At viverra et hac lacus. Vitae consectetur imperdiet ipsum ac. A tortor purus nunc sit duis eu adipiscing aliquam. Massa sit pellentesque feugiat lectus morbi a purus. A tortor purus nunc sit duis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. At viverra et hac lacus. Vitae consectetur imperdiet ipsum ac. A tortor purus nunc sit duis eu adipiscing aliquam. Massa sit pellentesque feugiat lectus morbi a purus. A tortor purus nunc sit duis.
+Strona zrobiona na potrzeby potencjalnej działalności znajomych, w kierunku tworzenia gier komputerowych. Strona ma za zadanie przedstawienie gier, jak i samego zespołu. Zarówno grami, jak i osobami wyświetlanymi na stronie można zarządzać poprzez pliki markdown \[.md]
