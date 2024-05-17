@@ -1,5 +1,5 @@
 <script>
-  import Photo from "$lib/assets/photo.jpeg"
+  import Photo from "$lib/assets/photo.jpg"
 </script>
 
 <div class="intro-container">

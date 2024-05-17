@@ -45,6 +45,8 @@
 
   .projects__item__text {
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
   }
 
   .projects__item__text > :global(p) {
@@ -59,7 +61,6 @@
     .projects__item > div {
       display: flex;
       gap: 2rem;
-      align-items: flex-start;
     }
 
     .projects__item__img {
@@ -76,6 +77,10 @@
       -webkit-line-clamp: 6;
       -webkit-box-orient: vertical;
       overflow: hidden;
+    }
+
+    .projects__item__text > .btn {
+      margin-top: auto;
     }
   }
 </style>

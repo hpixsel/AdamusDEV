@@ -63,7 +63,6 @@ export default defineConfig({
             type: "string",
             name: "link",
             label: "Link",
-            required: true,
           },
           {
             type: "image",
