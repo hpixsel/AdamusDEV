@@ -5,8 +5,7 @@ github: 'https://github.com/hpixsel/Madrem'
 link: 'https://madrem.netlify.app'
 imgs:
   - /content/Madrem/main.png
-  - /content/Madrem/about.png
-  - /content/Madrem/gallery.png
+  - /content/Madrem/swiper.png
   - /content/Madrem/footer.png
 tools:
   - icon: astro
@@ -18,4 +17,4 @@ team:
     link: 'https://adamusdev.netlify.app'
 ---
 
-Strona dla firmy Madrem, przedstawiająca firmę oraz ofertę jaką posiadają dla swoich klientów.
+Strona dla firmy Madrem, przedstawiająca firmę oraz ofertę jaką posiadają dla swoich klientów. Wykorzystująca bibliotekę SwiperJS.
