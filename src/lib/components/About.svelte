@@ -17,8 +17,9 @@
     <p>
       Jestem <span>Front-End developerem</span> (z drobną wiedzą o Back-Endzie)
       oraz
-      <span>web designerem</span> z zamiłowaniem do komputerów i wszelakiej technologii,
-      jak na ten moment uczę się w technikum na kierunku informatycznym.
+      <span>web designerem</span> z zamiłowaniem do komputerów i wszelakiej technologii.
+      Jak na ten moment skończyłem technikum na kierunku informatycznym i szukam
+      możliwości dalszego rozwoju.
     </p>
     <p>
       Zawsze ciekawiło mnie, jak technologia działa za kulisami. Dlatego
