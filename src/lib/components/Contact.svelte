@@ -14,7 +14,10 @@
   <div class="wrapper">
     <h2><span>Skontaktuj Się</span> ze mną!</h2>
     <div class="contact__form">
-      <form action="https://formsubmit.co/adamusdev@gmail.com" method="POST">
+      <form
+        action="https://formsubmit.co/4f54c05c48883ae4c32bb4ded85fa282"
+        method="POST"
+      >
         <label for="name"><span>Twoje</span> Imię:</label>
         <input type="text" name="Imię" required />
         <label for="email"><span>Twój</span> Email:</label>
@@ -28,7 +31,7 @@
         <input
           type="hidden"
           name="_next"
-          value="http://localhost:5173/wyslane"
+          value="https://adamusdev.netlify.app/wyslane"
         />
         <button class="btn contact__btn" type="submit" data-btn-fit>
           Wyślij wiadomość
@@ -60,6 +63,7 @@
   .contact form :is(label, input, textarea) {
     display: block;
     width: 100%;
+    font-family: inherit;
   }
 
   .contact form :is(input, textarea) {
