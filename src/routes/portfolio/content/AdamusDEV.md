@@ -2,7 +2,7 @@
 isFeatured: false
 title: AdamusDEV
 github: 'https://github.com/hpixsel/AdamusDEV'
-link: 'https://adamusdev.netlify.app/'
+link: 'https://adamusdev.pl/'
 imgs:
   - /content/AdamusDEV/main.png
   - /content/AdamusDEV/portfolio.png
