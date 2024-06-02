@@ -103,34 +103,19 @@ export default defineConfig({
             ]
           },
           {
-            type: "object",
+            type: "string",
             name: "team",
             label: "Zespół",
             list: true,
-            ui: {
-              itemProps: (item) => {
-                return { label: `${item?.name}`}
-              },
-            },
-            fields: [
+            options: [
               {
-                type: "string",
-                name: "name",
-                label: "Nazwa",
-                required: true,
+                label: "Adamus Kacper",
+                value: "adamus",
               },
               {
-                type: "string",
-                name: "icon",
-                label: "Ikona",
-                required: true,
-              },
-              {
-                type: "string",
-                name: "link",
-                label: "Link",
-                required: true,
-              },
+                label: "Janusz Kacper",
+                value: "janusz",
+              }
             ]
           },
           {

@@ -17,9 +17,7 @@ tools:
     name: Netlify CMS
     href: 'https://decapcms.org/'
 team:
-  - name: Adamus Kacper
-    icon: adamus.jpg
-    link: 'https://adamusdev.netlify.app'
+  - adamus
 ---
 
 Strona zrobiona dla mojej mamy, która wszystkie swoje przepisy trzyma w starym rozlatującym się zeszycie. Projekt ten powstał, żeby w łatwy sposób miała dostęp do wszystkich swoich przepisów, dzięki funkcji wyszukiwania. Strona zawiera również system CMS, dzięki któremu w łatwy sposób można dodawać nowe przepisy. Przy każdym odświeżeniu strony głównej w górnej części strony jest losowo wybierany jeden przepis, co pozwala na znalezienie potencjalnie zapomnianego przepisu.
