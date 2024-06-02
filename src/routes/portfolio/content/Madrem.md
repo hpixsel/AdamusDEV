@@ -12,9 +12,7 @@ tools:
     name: Astro
     href: 'https://astro.build/'
 team:
-  - name: Adamus Kacper
-    icon: adamus.jpg
-    link: 'https://adamusdev.netlify.app'
+  - adamus
 ---
 
 Strona dla firmy Madrem, przedstawiająca firmę oraz ofertę jaką posiadają dla swoich klientów. Wykorzystująca bibliotekę SwiperJS.
