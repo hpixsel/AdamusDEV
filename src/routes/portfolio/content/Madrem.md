@@ -2,7 +2,7 @@
 isFeatured: true
 title: Madrem
 github: 'https://github.com/hpixsel/Madrem'
-link: 'https://madrem.netlify.app'
+link: 'https://madrem.pl'
 imgs:
   - /content/Madrem/main.png
   - /content/Madrem/swiper.png
