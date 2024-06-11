@@ -165,7 +165,46 @@
     </svg>
   </div>
   <div class="hero__bg">
-    <img src={bgImg} alt="bg-img" />
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1475 737">
+      <g clip-path="url(#a)" filter="url(#b)">
+        <path
+          fill="url(#c)"
+          d="M1022.42 164.56c56.15 17.472 87.74 64.428 167.58 107.562 78.96 43.68 206.18 84.084 250.05 140.322 43.87 55.692 3.51 127.764-74.58 171.99-78.96 44.226-196.53 61.152-296.55 86.268-99.141 25.116-181.614 58.422-253.558 47.502-71.944-10.92-134.237-66.612-241.276-88.998-107.04-22.386-259.702-12.012-372.005-45.318C90.655 550.582 19.588 473.596 16.078 395.518c-2.632-78.078 61.416-157.794 134.238-233.142C222.26 86.482 302.978 13.864 413.527 16.048c109.671 2.184 250.928 78.624 361.476 110.838C885.552 159.1 966.27 147.088 1022.42 164.56Z"
+        />
+      </g>
+      <defs>
+        <radialGradient
+          id="c"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientTransform="matrix(0 352.169 -721.055 0 737.055 368.169)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#BDE045" stop-opacity=".1" />
+          <stop offset="1" stop-color="#BDE045" stop-opacity="0" />
+        </radialGradient>
+        <clipPath id="a">
+          <path fill="#fff" d="M16 16h1443v705H16z" />
+        </clipPath>
+        <filter
+          id="b"
+          width="1475"
+          height="737"
+          x="0"
+          y="0"
+          color-interpolation-filters="sRGB"
+          filterUnits="userSpaceOnUse"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+          <feGaussianBlur
+            result="effect1_foregroundBlur_189_6"
+            stdDeviation="8"
+          />
+        </filter>
+      </defs>
+    </svg>
   </div>
 </section>
 
@@ -199,7 +238,7 @@
 
   .hero__bg {
     position: absolute;
-    overflow-x: clip;
+    overflow-x: visible;
     inset: 0;
     display: flex;
     align-items: center;
@@ -209,8 +248,10 @@
     right: -1rem;
   }
 
-  .hero__bg img {
-    max-width: 400%;
+  .hero__bg svg {
+    width: 100%;
+    height: 100%;
+    min-width: 200%;
   }
 
   @media (min-width: 60rem) {
@@ -231,8 +272,9 @@
       width: 60rem;
     }
 
-    .hero__bg img {
-      max-width: 110%;
+    .hero__bg svg {
+      min-width: 100%;
+      min-height: 150%;
     }
   }
 </style>

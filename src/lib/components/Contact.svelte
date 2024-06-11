@@ -19,13 +19,13 @@
         method="POST"
       >
         <label for="name"><span>Twoje</span> Imię:</label>
-        <input type="text" name="Imię" required />
+        <input id="name" type="text" name="Imię" required />
         <label for="email"><span>Twój</span> Email:</label>
-        <input type="email" name="Email" required />
+        <input id="email" type="email" name="Email" required />
         <label for="title">Tytuł wiadomości:</label>
-        <input type="text" name="Tytuł" required />
+        <input id="title" type="text" name="Tytuł" required />
         <label for="message">Wiadomość:</label>
-        <textarea name="Wiadomość" id="message"></textarea>
+        <textarea id="message" name="Wiadomość"></textarea>
         <input type="text" name="_honey" style="display:none" />
         <input type="hidden" name="_template" value="box" />
         <input
