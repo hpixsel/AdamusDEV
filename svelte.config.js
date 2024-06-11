@@ -17,7 +17,7 @@ const config = {
 		mdsvex({
 			extensions: ['.md']
 		}),
-		importAssets()
+		importAssets(),
 	]
 };
 

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
 *,
 *::before,
 *::after {
@@ -32,6 +30,7 @@ img,
 svg {
   max-width: 100%;
   display: block;
+  height: auto;
 }
 
 h1,

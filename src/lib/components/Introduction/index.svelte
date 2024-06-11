@@ -1,5 +1,5 @@
 <script>
-  import Photo from "$lib/assets/photo.jpg"
+  import Photo from "$lib/assets/photo-resized.jpg"
 </script>
 
 <div class="intro-container">
@@ -27,7 +27,12 @@
         </p>
       </div>
       <div class="intro__img">
-        <img src={Photo} alt="author-photography" />
+        <img
+          src={Photo}
+          alt="author-photography"
+          fetchpriority="high"
+          loading="eager"
+        />
       </div>
       <a href="/o-mnie" class="btn" data-btn-fit>Dowiedz Się Więcej</a>
     </div>

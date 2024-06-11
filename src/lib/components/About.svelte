@@ -1,6 +1,6 @@
 <div class="about wrapper">
   <div class="about__photo">
-    <img src="$lib/assets/photo.jpg" alt="Kacper Adamus" />
+    <img src="$lib/assets/photo-resized.jpg" alt="Kacper Adamus" />
   </div>
   <div class="about__text">
     <div class="about__text__heading">
