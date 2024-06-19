@@ -1,5 +1,5 @@
 <script>
-  import Photo from "$lib/assets/photo-resized.jpg"
+  import Photo from "$lib/assets/photo-resized.jpg";
 </script>
 
 <div class="intro-container">
@@ -57,9 +57,16 @@
   }
 
   .intro__img {
+    margin-block: 2rem;
     border-radius: 4px;
     border: 2px solid var(--clr-primary);
-    margin-block: 2rem;
+    overflow: hidden;
+  }
+
+  .intro__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   @media (min-width: 60rem) {
