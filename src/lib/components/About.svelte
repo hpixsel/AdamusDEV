@@ -46,6 +46,12 @@
     overflow: hidden;
   }
 
+  .about__photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   .about__text {
     margin-top: 1rem;
   }
